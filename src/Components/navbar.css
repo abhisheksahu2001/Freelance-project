@@ -1,0 +1,96 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  /* background-color: black; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LeftContainer img {
+  width: 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+nav button {
+  margin: 1px 8px;
+  /* background-color: black; */
+  border: none;
+  color: black;
+  padding: 5px;
+}
+
+.cart-icon-css {
+  color: black;
+}
+
+.cart-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.cart-btn img {
+  width: 30px;
+  height: fit-content;
+}
+
+.cart-icon-css {
+  background-color: rgb(255, 187, 0);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  position: relative;
+  top: 3px;
+  right: 8px;
+  text-decoration: none;
+}
+
+.profile-icon {
+  width: 30px;
+  padding-right: 10px;
+}
+
+.logout-btn {
+  font-family: sans-serif;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.product-types {
+  background-color: #ffbb00;
+  display: flex;
+  justify-content: center;
+}
+
+.product-types button {
+  background-color: #ffbb00;
+  padding: 0px 5px;
+  margin: 8px 15px;
+  border: 2px solidblack;
+  color: black;
+  border-radius: 5px;
+  font-size: 13px;
+}
+@media only screen and (max-width: 500px) {
+  .navbar {
+    font-size: 12px;
+    width: 160px;
+    display: block;
+  }
+  nav button {
+    padding: 2px;
+    margin: 1px 3px;
+  }
+  .logout-btn {
+    font-size: 12px;
+  }
+}
